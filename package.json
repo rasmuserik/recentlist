@@ -1,0 +1,19 @@
+{
+  "name": "recentlist",
+  "description": "fixed-length list of elements where least recently pushed element are replaced by new element",
+  "version": "0.0.1",
+  "keywords": ["data structure", "lru"],
+  "maintainers":[{"name": "Rasmus Erik Voel Jensen", "web": "http://solsort.dk"}],
+  "contributors":[{"name": "Rasmus Erik Voel Jensen", "web": "http://solsort.dk"}],
+  "licenses": [{"type": "MIT", "url": "http://www.opensource.org/licenses/MIT"}],
+  "repositories": [{"type": "git", "url": "git@github.com:rasmuserik/recentlist.git"}],
+  "dependencies": [],
+  "homepage": "http://github.com/rasmuserik/recentlist/",
+  "author": "Rasmus Erik Voel Jensen (solsort.dk)",
+  "main": "lib/recentlist.js",
+  "ender": "lib/recentlist.js",
+  "scripts": { 
+    "doc": "docco lib/*.js",
+    "test": "node test/test.js" 
+  }
+}
